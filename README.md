@@ -1,33 +1,35 @@
-Esse é API no qual é possível cadastrar funcionarios e editá-lós.
+# API Cadastro de funcionários.
 
 Node.js, Express & MySQL: CRUD Simples
 
 Um aplicativo CRUD simples e básico (Create, Get, GetAll, Update, Delete) usando Node.js, Express, MySQL
 
-1º Passo
+## Passos para rodar o projeto
+
+### 1º Passo
 Criar o banco de dados:
-
+```bash
 CREATE DATABASE IF NOT EXISTS projeto_crud;
-
-2º Passo
+```
+### 2º Passo
 Execute os comandos abaixo no terminal:
-
+```bash
 npm install
-
-3º Passo
-Criar tabela, executar comando abaixo:
-
+```
+### 3º Passo
+Criação da tabela, executar comando abaixo:
+```bash
 node database.js up
-
-4º Passo
-Execute o comando abaixo para Inciar a API
-
+```
+### 4º Passo
+Execute o comando abaixo para Inciar a API:
+```bash
 npm start
-
-5º Passo
+```
+### 5º Passo
 Após o servidor iniciado usar Postman ou outro de sua preferência:
-
-URL: localhost:3000/api/funcionarios/
+```bash
+**URL: localhost:3000/api/funcionarios/**
 
 GET:
 getAll - localhost:3000/api/funcionarios/
@@ -58,3 +60,4 @@ PUT:
 DELETE:
 deleteById - localhost:3000/api/funcionarios/1
 deleteAll - localhost:3000/api/funcionarios/
+```
